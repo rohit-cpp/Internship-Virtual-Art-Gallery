@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Art Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Virtual Modern Art Gallery</h1>
+    </header>
+
+    <section class="filters">
+      <button onclick="filterArt('all')">All</button>
+      <button onclick="filterArt('abstract')">Abstract</button>
+      <button onclick="filterArt('geometric')">Geometric</button>
+      <button onclick="filterArt('digital')">Digital</button>
+      <button onclick="filterArt('minimal')">Minimal</button>
+    </section>
+
+    <main>
+      <div id="gallery" class="gallery-container">
+        <!-- Artwork cards will be inserted via JS -->
+      </div>
+
+      <section id="art-details" class="art-details hidden">
+        <h2 id="detail-title"></h2>
+        <p id="detail-desc"></p>
+        <p><strong>Style:</strong> <span id="detail-style"></span></p>
+        <a id="download-btn" href="#" download>Download Artwork</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Virtual Gallery. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
