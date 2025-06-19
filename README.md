@@ -6,7 +6,7 @@ Explore the beauty of modern digital art through an interactive and responsive v
 
 ## 🚀 Live Demo
 
-> _Coming soon_ — host via GitHub Pages or Vercel for live preview.
+virtual-art-gallery-psi.vercel.app
 
 ---
 
